@@ -1,0 +1,1 @@
+// Used for nested routes, e.x: localhost/products/:productId/reviewsconst setURLIdToBody = (fieldName, idName) => (req, res, next) => {    // Nested route (Create)    if (!req.body[fieldName]) req.body[fieldName] = req.params[idName];    return next();};module.exports = setURLIdToBody
