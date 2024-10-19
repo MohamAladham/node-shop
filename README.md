@@ -3,6 +3,7 @@ e-commerce restful API.
 
 
 ## Technologies:
+- Docker
 - Node.js
 - Express.js
 - MongoDB
@@ -32,3 +33,13 @@ e-commerce restful API.
 - Cash & Online Payments using STRIPE.
 
 
+## Installation:
+```bash
+npm install
+```
+
+## Run With Docker:
+```bash
+docker compose build
+docker compose up -d
+```
